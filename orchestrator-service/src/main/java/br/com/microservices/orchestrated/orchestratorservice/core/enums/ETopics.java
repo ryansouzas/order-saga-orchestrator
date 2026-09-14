@@ -1,4 +1,4 @@
-package br.com.microservices.orchestrated.orchestratorservice;
+package br.com.microservices.orchestrated.orchestratorservice.core.enums;
 
 
 import lombok.AllArgsConstructor;
@@ -17,7 +17,7 @@ public enum ETopics {
     PAYMENT_SUCCESS("payment-success"),
     PAYMENT_FAIL("payment-fail"),
     INVENTORY_SUCCESS("inventory-success"),
-    INVENTORY_FAIL("inventory_fail"),
+    INVENTORY_FAIL("inventory-fail"),
     NOTIFY_ENDING("notify-ending");
 
     private String topic;
